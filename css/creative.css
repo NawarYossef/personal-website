@@ -43,7 +43,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #F05F40;
+  background-color: #162b4c;
 }
 .bg-dark {
   background-color: #222222;
@@ -158,8 +158,9 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  /*background-image: url('../img/header.jpg');*/
-  background-color: black;  text-align: center;
+  background-image: url('../img/header3.jpg');
+ /* background-color: black;*/  
+  text-align: center;
   color: white;
 }
 
