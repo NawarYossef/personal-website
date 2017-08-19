@@ -163,16 +163,29 @@ header {
   text-align: center;
   color: white;
 }
-header img:nth-of-type(1) {
+
+header ul {
   display: block;
-  width: 52px;
-  margin: 0 auto;
+  width: 30%;
+  margin: 15px auto 0 auto;
 }
 
-header img:nth-of-type(2) {
+header ul li {
+  display: inline-block;
+}
+
+/*header ul li:nth-of-type(1) {
+  margin-right: 15px;
+}*/
+
+header ul li:nth-of-type(2) {
+  margin-right: 35px;
+}
+
+.personal-photo {
   width: 134px;
   height: 184px;
-  margin: 0 auto;
+  margin: 20px auto 0 auto;
   border-radius: 70px;
 }
 header .header-content {
@@ -199,10 +212,13 @@ header .header-content .header-content-inner p {
   margin-top: 10px;
   margin-bottom: 30px;
 }
+
+
 @media (min-width: 768px) {
   header {
-    min-height: 90%;
+    min-height: 85%;
   }
+
   header .header-content {
     position: absolute;
     top: 50%;
@@ -226,6 +242,9 @@ header .header-content .header-content-inner p {
     margin-right: auto;
   }
 }
+
+
+
 .section-heading {
   margin-top: 0;
 }
@@ -233,11 +252,39 @@ header .header-content .header-content-inner p {
   max-width: 400px;
   margin: 50px auto 0;
 }
+
+
+
 @media (min-width: 992px) {
   .service-box {
     margin: 20px auto 0;
   }
 }
+
+.dev-tools {
+  width: 50%;
+  margin: 0 auto;
+}
+
+#about hr {
+  width: 100%;
+}
+
+#about h2 {
+  width: 50%;
+  margin: 50px auto 0 auto;
+}
+
+.table {
+  width: 100%;
+  font-size: 18px;
+}
+
+.table td, .table th  {
+  text-align: center;
+    border: none !important;
+}
+
 .service-box p {
   margin-bottom: 0;
 }
