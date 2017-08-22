@@ -38,7 +38,7 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
   margin-bottom: 20px;
 }
@@ -248,6 +248,8 @@ header .header-content .header-content-inner p {
 .section-heading {
   margin-top: 0;
 }
+
+
 .service-box {
   max-width: 400px;
   margin: 50px auto 0;
@@ -261,10 +263,12 @@ header .header-content .header-content-inner p {
   }
 }
 
-.dev-tools {
-  width: 50%;
-  margin: 0 auto;
+
+
+.about p {
+  font-size: 18px;
 }
+
 
 #about hr {
   width: 100%;
@@ -275,15 +279,35 @@ header .header-content .header-content-inner p {
   margin: 50px auto 0 auto;
 }
 
+.second {
+  margin-top: 20px;
+}
+
+.dev-tools {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .table {
-  width: 100%;
+  
+  width: 75%;
+  height: 100%;
+  margin-left: 25%;  
+}
+
+.table thead {
+  font-size: 24px;
+}
+
+.table tbody {
   font-size: 18px;
 }
 
 .table td, .table th  {
-  text-align: center;
   border: none !important;
 }
+
+
 
 .service-box p {
   margin-bottom: 0;
