@@ -173,6 +173,10 @@ header ul {
 header ul li {
   display: inline-block;
 }
+/*
+header ul li img {
+  width: 40px;
+}*/
 
 header ul li:nth-of-type(3) {
   margin-right: 40px;
@@ -186,7 +190,7 @@ header ul li:nth-of-type(3) {
   width: 134px;
   height: 184px;
   margin: 20px auto 0 auto;
-  border-radius: 70px;
+  border-radius: 60px;
 }
 header .header-content {
   position: relative;
@@ -292,7 +296,7 @@ header .header-content .header-content-inner p {
   
   width: 75%;
   height: 100%;
-  margin-left: 25%;  
+  margin-left: 20%;  
 }
 
 .table thead {
