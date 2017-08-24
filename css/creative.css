@@ -98,7 +98,7 @@ aside {
 }
 .navbar-default .nav > li.active > a,
 .navbar-default .nav > li.active > a:focus {
-  color: #F05F40 !important;
+  color: #ffffff !important;
   background-color: transparent;
 }
 .navbar-default .nav > li.active > a:hover,
@@ -126,11 +126,11 @@ aside {
     color: white;
   }
   .navbar-default.affix {
-    background-color: white;
+    background-color: #a78585;
     border-color: rgba(34, 34, 34, 0.05);
   }
   .navbar-default.affix .navbar-header .navbar-brand {
-    color: #F05F40;
+    color: #ffffff;
     font-size: 14px;
   }
   .navbar-default.affix .navbar-header .navbar-brand:hover,
@@ -143,7 +143,7 @@ aside {
   }
   .navbar-default.affix .nav > li > a:hover,
   .navbar-default.affix .nav > li > a:focus:hover {
-    color: #F05F40;
+    color: #ffffff;
   }
 }
 
@@ -247,8 +247,6 @@ header .header-content .header-content-inner p {
   }
 }
 
-
-
 .section-heading {
   margin-top: 0;
 }
@@ -270,7 +268,7 @@ header .header-content .header-content-inner p {
 
 
 .about p {
-  font-size: 18px;
+  font-size: 24px;
 }
 
 
@@ -316,6 +314,43 @@ header .header-content .header-content-inner p {
 .service-box p {
   margin-bottom: 0;
 }
+
+#portfolio {
+  background-image: url("../img/header2.jpg");
+  background-size: cover;
+  background-position: -200px 0px;  
+  padding-top: 20px;
+}
+#portfolio p {
+  margin-top: 5px;
+  padding-left: 15px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.link {
+ color: #3097d1;
+}
+
+#portfolio h2 {
+  margin: 10px 0 10px 0;
+  width: 8%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+#portfolio hr {
+  width: 12%;
+  border-color: #ae7878 ;
+}
+
+#portfolio h3 {
+  text-align: center;
+  color: #ffffff;
+}
+
+
 .portfolio-box {
   position: relative;
   display: block;
