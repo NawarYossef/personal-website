@@ -149,6 +149,7 @@ aside {
 
 
 
+
 header {
   position: relative;
   width: 100%;
@@ -281,6 +282,9 @@ header .header-content .header-content-inner p {
   margin: 50px auto 0 auto;
 }
 
+#about img {
+  width: 75%;
+}
 .second {
   margin-top: 20px;
 }
@@ -478,7 +482,7 @@ fieldset[disabled] .btn-default.active {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: white;
-  background-color: #ee4b28;
+  background-color: #af1818;
   border-color: #ed431f;
 }
 .btn-primary:active,
