@@ -3,6 +3,7 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
 html,
 body {
   height: 100%;
@@ -11,6 +12,7 @@ body {
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
 }
+
 hr {
   border-color: #F05F40;
   border-width: 3px;
@@ -272,37 +274,33 @@ header .header-content .header-content-inner p {
   font-size: 24px;
 }
 
+.description {
+  margin-bottom: 20px;
+}
 
 #about hr {
   width: 100%;
 }
 
 #about h2 {
-  width: 50%;
-  margin: 50px auto 0 auto;
+  width: 100%;
+  font-size: 24px;
 }
 
 #about img {
-  width: 75%;
-}
-.second {
-  margin-top: 20px;
+  width: 100%;
 }
 
-.dev-tools {
-  width: 50%;
-  margin: 0 auto;
-}
 
-.table {
-  
-  width: 75%;
-  height: 100%;
-  margin-left: 20%;  
+.table { 
+  width: 100%;
+  border-collapse: collapse ;
 }
 
 .table thead {
-  font-size: 24px;
+  font-size: 18px;
+  color: #e74aa8;
+  text-decoration: underline;
 }
 
 .table tbody {
@@ -311,12 +309,6 @@ header .header-content .header-content-inner p {
 
 .table td, .table th  {
   border: none !important;
-}
-
-
-
-.service-box p {
-  margin-bottom: 0;
 }
 
 #portfolio {
@@ -376,12 +368,12 @@ header .header-content .header-content-inner p {
   transition: all 0.35s;
 }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content {
-  width: 100%;
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
@@ -395,9 +387,9 @@ header .header-content .header-content-inner p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
-.portfolio-box:hover .portfolio-box-caption {
+/*.portfolio-box:hover .portfolio-box-caption {
   opacity: 1;
-}
+}*/
 .portfolio-box:focus {
   outline: none;
 }
