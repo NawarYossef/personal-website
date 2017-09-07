@@ -45,7 +45,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #162b4c;
+  background-color: #19311a;
 }
 .bg-dark {
   background-color: #222222;
@@ -55,7 +55,7 @@ p {
   color: rgba(255, 255, 255, 0.7);
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 aside {
   padding: 50px 0;
@@ -272,6 +272,8 @@ header .header-content .header-content-inner p {
 
 #about p {
   font-size: 18px;
+  color: #969191;
+
 }
 
 .description {
@@ -287,13 +289,20 @@ header .header-content .header-content-inner p {
   font-size: 24px;
 }
 
+#portfolio h2::before {
+  content: '\2022';
+  margin-right: 5px;
+  vertical-align: -15%;
+}
+
 #about img {
   width: 100%;
 }
 
 
 .table { 
-  width: 100%;
+  width: 80%;
+  margin-left: 60px;
   border-collapse: collapse ;
 }
 
@@ -314,7 +323,7 @@ header .header-content .header-content-inner p {
 #portfolio {
   background-image: url("../img/header2.jpg");
   background-size: cover;
-  background-position: -200px 0px;  
+  background-position: -300px 0px;  
   padding-top: 20px;
 }
 #portfolio p {
@@ -327,21 +336,32 @@ header .header-content .header-content-inner p {
 
 .link {
  color: #3097d1;
+ cursor: pointer;
+}
+
+.link:hover, .link:active {
+  color: #ae6146;
+  text-decoration: none;
+
 }
 
 #portfolio h2 {
-  margin: 10px 0 10px 0;
-  width: 8%;
-  margin: 0 auto;
-  color: #ffffff;
+  width: 200px;
+  font-size: 32px;
+  margin: 10px 0 0 30px;
+  color: #e0dfdf;
+  font-weight: bold;
 }
 
-#portfolio hr {
-  width: 12%;
+/*#portfolio hr {
+  width: 30%;
   border-color: #ae7878 ;
-}
+
+}*/
 
 #portfolio h3 {
+  font-size: 26px;
+  color: #e0dfdf;
   text-align: center;
   color: #ffffff;
 }
