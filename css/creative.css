@@ -380,6 +380,13 @@ header .header-content .header-content-inner p {
   color: #5692ae;
 }
 
+#about h2::before  {
+  content: '\2022';
+  margin-right: 5px;
+  /*vertical-align: -15%;*/
+  color: #5692ae;
+}
+
 .link {
  color: #3097d1;
  cursor: pointer;
@@ -391,12 +398,16 @@ header .header-content .header-content-inner p {
 
 }
 
-#portfolio h2 {
+#portfolio h2, #about h2 {
   width: 200px;
   font-size: 28px;
   margin: 10px 0 0 30px;
   color: #aaa9a9;
   font-weight: bold;
+}
+
+#about h2 {
+  color: #2c1010;
 }
 
 #portfolio .project {
