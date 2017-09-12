@@ -45,7 +45,7 @@ p {
   margin-bottom: 20px;
 }
 .bg-primary {
-  background-color: #19311a;
+  background-color: #d7d7d7;
 }
 .bg-dark {
   background-color: #222222;
@@ -125,7 +125,7 @@ aside {
   }
   .navbar-default .nav > li > a:hover,
   .navbar-default .nav > li > a:focus:hover {
-    color: white;
+    color: black;
   }
   .navbar-default.affix {
     background-color: #a78585;
@@ -150,7 +150,17 @@ aside {
 }
 
 
+header ul li {
+  background: linear-gradient(to top, #ffffff 50%, rgba(0, 0, 0, 0) 50%);
+  background-size: 100% 200%;
+  background-position: top bottom;
+  transition:all 0.5s ease;
 
+}
+
+header ul li:hover {
+  background-position:right bottom;
+}
 
 header {
   position: relative;
@@ -176,9 +186,10 @@ header ul {
 header ul li {
   display: inline-block;
 }
-/*
-header ul li img {
-  width: 40px;
+
+
+/*header ul li:nth-of-type(2)  {
+  clip-path: circle(23px at center);
 }*/
 
 header ul li:nth-of-type(3) {
@@ -268,41 +279,60 @@ header .header-content .header-content-inner p {
   }
 }
 
-
+.container {
+  width: 80%;
+}
 
 #about p {
   font-size: 18px;
-  color: #969191;
+  color: #807f7f;
 
 }
 
-.description {
-  margin-bottom: 20px;
+.description1 {
+  margin-bottom: 0px ;
+}
+
+.description2 {
+  margin-bottom: 25px;
 }
 
 #about hr {
   width: 100%;
 }
 
-#about h2 {
+#about h3 {
   width: 100%;
   font-size: 24px;
-}
+  color:  #d58383;
 
-#portfolio h2::before {
-  content: '\2022';
-  margin-right: 5px;
-  vertical-align: -15%;
 }
 
 #about img {
-  width: 100%;
+  width: 80%;
+}
+
+#slideshow { 
+    margin: 0px auto; 
+    position: relative; 
+    width: 100%; 
+    height: 240px; 
+    padding: 10px; 
+    /*box-shadow: 0 0 20px rgba(0,0,0,0.4); */
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
 }
 
 
 .table { 
   width: 80%;
-  margin-left: 60px;
+  /*margin-left: 60px;*/
   border-collapse: collapse ;
 }
 
@@ -331,7 +361,14 @@ header .header-content .header-content-inner p {
   padding-left: 15px;
   text-align: left;
   color: #ffffff;
-  font-size: 24px;
+  font-size: 20px;
+}
+
+#portfolio h2::before {
+  content: '\2022';
+  margin-right: 5px;
+  vertical-align: -15%;
+  color: #5692ae;
 }
 
 .link {
@@ -347,25 +384,144 @@ header .header-content .header-content-inner p {
 
 #portfolio h2 {
   width: 200px;
-  font-size: 32px;
+  font-size: 28px;
   margin: 10px 0 0 30px;
-  color: #e0dfdf;
+  color: #aaa9a9;
   font-weight: bold;
 }
 
-/*#portfolio hr {
-  width: 30%;
-  border-color: #ae7878 ;
+#portfolio .project {
+  -webkit-transition: all 100ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+}
 
-}*/
+#portfolio .project:hover {
+  overflow: hidden;
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 0;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.25);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.25);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.25);
+  transition: all 200ms ease-in;
+  transform: scale(1.10);
+}
 
 #portfolio h3 {
-  font-size: 26px;
+  font-size: 24px;
   color: #e0dfdf;
   text-align: center;
   color: #ffffff;
 }
 
+.view {
+    
+    height: 100%;
+    width: 100%;
+    
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    /*box-shadow: 1px 1px 2px #e6e6e6;*/
+    cursor: default;
+    background: #fff url(../images/bgimg.jpg) no-repeat center center
+}
+
+.view .mask, .view .content {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view img {
+    display: block;
+    position: relative
+}
+.view h3 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    margin: 20px 0 0 0
+}
+.view p {
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 10px 20px 20px;
+    text-align: center
+}
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view a.info:hover {
+    box-shadow: 0 0 5px #000
+}
+
+
+
+.view-first img { 
+    transition: all 0.2s linear;
+}
+.view-first .mask {
+    opacity: 0;
+    background-color: rgba(219,127,8, 0.7); 
+    transition: all 0.4s ease-in-out;
+}
+.view-first h3 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+.view-first p { 
+    transform: translateY(100px);
+    opacity: 0;
+  transition: all 0.2s linear;
+}
+.view-first a.info{
+    opacity: 0;
+  transition: all 0.2s ease-in-out;
+}
+
+.view-first:hover img { 
+  transform: scale(1.1);
+} 
+.view-first:hover .mask { 
+  opacity: 1;
+}
+.view-first:hover h3,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
 
 .portfolio-box {
   position: relative;

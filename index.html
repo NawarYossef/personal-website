@@ -27,6 +27,8 @@
     <!-- Theme CSS -->
     <link href="css/creative.css" rel="stylesheet">
 
+
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -82,9 +84,9 @@
                 <img class="personal-photo" src="img/personal-photo.jpg">
                 <h1 id="homeHeading">Nawar Yossef</h1>
                 <ul>
-                    <li><a href="https://github.com/NawarYossef"><img src="img/icon-github.png"></a></li>
-                    <li><a href=""><img src="img/icon-medium.png"></a></li>
-                    <li><a href="https://www.linkedin.com/in/nawar-yossef-78924211a/"><img src="img/icon-linkden.png"></a></li>
+                    <li><a href="https://github.com/NawarYossef" target="_blank"><img src="img/icon-github.png"></a></li>
+                    <li><a href="https://www.linkedin.com/in/nawar-yossef-78924211a/" target="_blank"><img src="img/icon-linkden.png"></a></li>
+                    <li><a href="https://www.facebook.com/nawar.yossef" target="_blank"><img src="img/icon-facebook.png"></a></li>
                 </ul>
            <!--      <hr> -->
                 <p>Hi! I’m a front end Javascript developer from Atlanta, Georgea. I use web technologies to make awesome applications. At the moment, I enjoy working with Node.js and React. Being an avid learner, I love going down the rabbit hole to learn new technologies and tools</p>
@@ -101,22 +103,65 @@
         </div>
     </header>
 
-
+    
     <section class="bg-primary" id="about">
         <div class="container">
-
-            <div class=" gutter col-lg-5">
-                <img src="img/about-photo.jpg">
+            <div class="no-gutters col-lg-4" >
+                <div id="slideshow">
+                   <div>
+                     <img src="img/about-photo1.jpg">
+                   </div>
+                   <div>
+                     <img src="img/about-photo2.jpg">
+                   </div>
+                   <!-- <div>
+                     <img src="img/about-photo4.jpg">
+                   </div> -->
+                   <div>
+                     <img src="img/about-photo3.jpg">
+                   </div>
+                   <div>
+                     <img src="img/about-photo5.jpg">
+                   </div>
+                </div>
             </div>
 
-            <div class=" gutter col-lg-7 description">                   
-               <h3 class="section-heading">iLearn things at first principle</h3>
-               <p>I began learning web development one year ago. I started with HTML/CSS and then expanded to learning the basics of JavaScript, Ruby, Rails, C#. I decided to settle on learning Javascript.  it's good to know frameworks and libraries. However, it's imparitive to learn a programming language in depth. I always make it my mission to dig deep and learn the fundementals of the JavaScript language. When i am not working,I spend lots of time watching open lectures, attending workshops</p>   
+            <div class=" gutter col-lg-8 description1">                   
+               <h3 class="section-heading">Who am I</h3>
+               <p>
+                I am sure you just want to check my work out, so I'll be quick. 
+                I’m a concert pianist turned web developer. I began learning web development one year ago. I started off with learning the basics of HTML/CSS, JavaScript, Ruby, C++ then I decided to focus on learning Javascript and front end frameworks. 
+                <br>
+                <br>
+                I have always had a passion for classical music and a love of technology. At a young age, I chose to focus on establishing a career as pianist and film music composer. At the same time I continued to satisfy my tech interests. I believe that programming is an art form and that there is a great parallel between music composition and web development. That is the ability to create and shape something out of nothing.  
+                <br>
+                <br>
+                Outside of my digital life I have a number of other interests as well. I love watching and playing tennis, hiking and enjoying nature, and spending time with my beautiful wife and good friends.
+                </p> 
+                <br>
+                <br>
             </div>
-           <div class="dev-tools gutter col-lg-7">
-                <h2 class="section-heading">Some of the skills I'm proficient with:</h2>
-                
-        
+
+            <div class="cont">
+                <div class=" gutter col-lg-8 description2">
+                    <h3 class="section-heading">What I do</h3> 
+                    <p>
+                    I’m a passionate javascript programmer who specializes in front-end development. I have a powerful team spirit, a creative mind and a great work ethic.  I believe in pretty designs and clean coding, and take pride in writing the kind of code others can actually read and collaborate on. 
+                    <br>
+                    <br>
+                    I enjoy working with Photoshop and convert designs to high-performance code whilst respecting the designer’s compositions. I Use modern techniques to build websites and apps that look great on the browser or on the phone. The mobile compatibility is one of my main concerns so I’m always focused on making my applications work nice and smoothly on mobile devices. 
+                    <br>
+                    <br>
+                    I’m constantly learning new technologies and thriving to improve my skills. I spend most of time reading books, attending workshops, and blogging about my experience. 
+                    </p>
+                </div>
+                <div class="gutter col-lg-4" >
+                    <img src="img/cc.png">
+                </div>
+            </div>
+
+           <div class="dev-tools">
+                <h3 class="dev-tools-heading">Some of the skills I'm proficient with:</h3> 
                 <table class="table">
                   <thead>
                      <tr>
@@ -165,8 +210,8 @@
                     </tr>
                   </tbody>
                 </table>
-            
             </div>
+        </div>
     </section>
         
 
@@ -178,105 +223,55 @@
             <div class="container-fluid">
                 <div class="row gutter ">
                     
-                    <div class="col-lg-4 col-sm-6">
-                        <h3>Calculator</h3>
+                    <div class="col-lg-4 col-sm-6 project">
                         <a href="https://calculator-online.herokuapp.com/#" class="portfolio-box" target="_blank">
-                            <img src="img/portfolio/thumbnails/calculator.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
+                            <div class="view view-first"> 
+                                <img src="img/portfolio/thumbnails/calculator.jpg" class="img-responsive" alt="">
+                                <div class="mask">  
+                                    <h3>Calculator</h3>  
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.<br>
+                                    </p> 
+                                    <a href="https://github.com/NawarYossef/calculator-app" class="info">live app</a>  
+                                </div> 
+                            </div> 
                         </a>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.<br>
-                            <span>
-                            You can view the source code 
-                                <a href="https://github.com/NawarYossef/calculator-app" class="link" target="_blank">here</a>
-                            </span>
-                        </p>
                     </div>
 
-                    <div class="col-lg-4 col-sm-6">
-                        <h3>Historical Events</h3>
+                    <div class="col-lg-4 col-sm-6 project">
                         <a href="https://clock-historical-events.herokuapp.com/" class="portfolio-box" target="_blank">
-                            <img src="img/portfolio/thumbnails/clock.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.<br>
-                            <span>
-                            You can view the source code 
-                                <a href="https://github.com/NawarYossef/clock-historical-events" class="link" target="_blank">here</a>
-                            </span>
-                        </p>
+                            <div class="view view-first">
+                                <img src="img/portfolio/thumbnails/clock.jpg" class="img-responsive" alt="">
+                                <div class="mask">
+                                    <h3>Historical Events</h3>
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.<br>
+                                    </p>
+                                    <a href="https://github.com/NawarYossef/clock-historical-events" class="info">live app</a>
+                                </div> 
+                            </div> 
+                        </a>  
                     </div>
 
-                    <div class="col-lg-4 col-sm-6">
-                        <h3>Tic-Tac-Toe Game</h3>
-                        <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                            <img src="img/portfolio/thumbnails/ttt.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.<br>
-                            <span>
-                            You can view the source code 
-                                <a href="#" class="link">here</a>
-                            </span>
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6">
-                        <h3>New Game</h3>
-                        <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                            <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                            <div class="portfolio-box-caption">
-                                <div class="portfolio-box-caption-content">
-                                    <div class="project-category text-faded">
-                                        Category
-                                    </div>
-                                    <div class="project-name">
-                                        Project Name
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                        <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.<br>
-                            <span>
-                            You can view the source code 
-                                <a href="#" class="link">here</a>
-                            </span>
-                        </p>
+                    <div class="col-lg-4 col-sm-6 project">
+                        <a href="https://clock-historical-events.herokuapp.com/" class="portfolio-box" target="_blank">
+                            <div class="view view-first">
+                                <img src="img/portfolio/thumbnails/ttt.jpg" class="img-responsive" alt="">
+                                <div class="mask">
+                                    <h3>Historical Events</h3>
+                                    <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut.<br>
+                                    </p>
+                                    <a href="https://github.com/NawarYossef/clock-historical-events" class="info">live app</a>
+                                </div> 
+                            </div> 
+                        </a>  
                     </div>
                 </div>
             </div>
     </section>
 
+  
     <aside class="bg-dark">
         <div class="container text-center">
             <div class="call-to-action">
@@ -319,6 +314,18 @@
 
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
+    <script type="text/javascript">
+        $("#slideshow > div:gt(0)").hide();
+
+setInterval(function() { 
+  $('#slideshow > div:first')
+    .fadeOut(1000)
+    .next()
+    .fadeIn(1000)
+    .end()
+    .appendTo('#slideshow');
+},  3000);
+    </script>
 
 </body>
 
