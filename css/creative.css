@@ -294,7 +294,7 @@ header .header-content .header-content-inner p {
 }
 
 .description2 {
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 #about hr {
@@ -329,16 +329,21 @@ header .header-content .header-content-inner p {
     bottom: 10px; 
 }
 
+.dev-tools-heading {
+  margin-top: 10px;
+}
+
+
 
 .table { 
-  width: 80%;
+  /*width: 80%;*/ 
   /*margin-left: 60px;*/
   border-collapse: collapse ;
 }
 
 .table thead {
   font-size: 18px;
-  color: #e74aa8;
+  color: #384893;
   text-decoration: underline;
 }
 
@@ -348,6 +353,10 @@ header .header-content .header-content-inner p {
 
 .table td, .table th  {
   border: none !important;
+}
+
+.table td {
+  color: #676767;
 }
 
 #portfolio {
@@ -463,7 +472,7 @@ header .header-content .header-content-inner p {
     font-size: 12px;
     position: relative;
     color: #fff;
-    padding: 10px 20px 20px;
+    /*padding: 10px 20px 20px;*/
     text-align: center
 }
 .view a.info {
