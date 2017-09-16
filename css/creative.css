@@ -25,11 +25,13 @@ a {
   -webkit-transition: all 0.35s;
   -moz-transition: all 0.35s;
   transition: all 0.35s;
-  color: #F05F40;
+  color: #6575cf;
 }
+
+
 a:hover,
 a:focus {
-  color: #eb3812;
+  /*color: #eb3812;*/
 }
 h1,
 h2,
@@ -150,18 +152,6 @@ aside {
 }
 
 
-header ul li {
-  background: linear-gradient(to top, #ffffff 50%, rgba(0, 0, 0, 0) 50%);
-  background-size: 100% 200%;
-  background-position: top bottom;
-  transition:all 0.5s ease;
-
-}
-
-header ul li:hover {
-  background-position:right bottom;
-}
-
 header {
   position: relative;
   width: 100%;
@@ -177,28 +167,16 @@ header {
   color: white;
 }
 
-header ul {
-  display: block;
-  width: 30%;
-  margin: 15px auto 0 auto;
+.header-icons .fa {
+  color: black;
+  font-size: 45px;
 }
 
-header ul li {
-  display: inline-block;
+.header-icons .fa:hover {
+  cursor: pointer;
+  color: #D7D7C2;
 }
 
-
-/*header ul li:nth-of-type(2)  {
-  clip-path: circle(23px at center);
-}*/
-
-header ul li:nth-of-type(3) {
-  margin-right: 40px;
-}
-
-/*header ul li:nth-of-type(2) {
-  margin-right: 35px;
-}*/
 
 .personal-photo {
   width: 134px;
@@ -263,6 +241,8 @@ header .header-content .header-content-inner p {
 
 .section-heading {
   margin-top: 0;
+  color: #7f4545;
+  font-weight: bold;
 }
 
 
@@ -767,12 +747,12 @@ fieldset[disabled] .btn-primary.active {
   font-size: 25px;
 }
 
-.fa {
+.cont-link {
   color: #672f71;
   font-size: 45px;
 }
 
-.fa:hover {
+.cont-link:hover {
   color: black;
 }
 
