@@ -1039,11 +1039,11 @@ body {
     }
 }
 
-@media only screen and (min-device-width : 769px) and (max-device-width : 1440px) {
+@media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
 
   .img-text {
       position: absolute;
-      top: 280%;
+      top: 230%;
       left: 0%;
       width: 40%;
       height: 15%;
@@ -1051,11 +1051,11 @@ body {
     }
 
     .description1 {
-      margin-top: 450px;
+      margin-top: 400px;
     }
 
     #about img {
-      width: 60%;
+      width: 50%;
     }
 
     .project {
@@ -1065,17 +1065,37 @@ body {
 }
 
 
-/*
-@media only screen and (min-device-width : 1025px) and (max-device-width : 1440px) {
- 
 
- }*/
+@media only screen and (min-device-width : 1025px) and (max-device-width : 2560px) {
+  .img-text {
+      position: absolute;
+      top: 155%;
+      left: 0%;
+      width: 70%;
+      height: 15%;
 
-@media only screen and (min-device-width : 1441px) and (max-device-width : 2560px) {
+    }
+
+    /*.description1 {
+      margin-top: 400px;
+    }
+*/
+    #about img {
+      width: 80%;
+    }
+
+    .project {
+      margin-top: 10px;
+    }
+
+
+ }
+
+/*@media only screen and (min-device-width : 1441px) and (max-device-width : 2560px) {
 
   .img-text {
       position: absolute;
-      top: 160%;
+      top: 290%;
       left: 0%;
       width: 70%;
       height: 15%;
@@ -1090,6 +1110,14 @@ body {
       margin-bottom: 10px;
     }
     
+     .description2 {
+      margin-top: 370px;
+    }
+
+    .carpenter {
+      margin-top: 340px;
+    }
+
 
     #about img {
       width: 75%;
@@ -1104,3 +1132,4 @@ body {
     width: 80%;
    }
 }
+*/
