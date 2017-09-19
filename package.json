@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/NawarYossef/personal-website/issues"
   },
-  "homepage": "https://github.com/NawarYossef/personal-website#readme"
+  "homepage": "https://github.com/NawarYossef/personal-website#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
 }
