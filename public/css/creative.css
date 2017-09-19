@@ -265,7 +265,7 @@ header .header-content .header-content-inner p {
 
 #about p {
   font-size: 18px;
-  color: #807f7f;
+  color: #6f6d6d;
 
 }
 
@@ -849,7 +849,7 @@ body {
       .img-text {
         position: absolute;
         bottom: 5%;
-        width: 80%;
+        width: 90%;
         height: 10%;
       background-color: rgba(115, 114, 114, 0.7);
       }
@@ -998,7 +998,7 @@ body {
       .img-text {
         position: absolute;
         bottom: 5%;
-        width: 80%;
+        width: 85%;
         height: 11%;
       background-color: rgba(115, 114, 114, 0.7);
       }
@@ -1037,7 +1037,7 @@ body {
       .img-text {
         position: absolute;
         bottom: 5%;
-        width: 40%;
+        width: 45%;
         height: 10%;
       background-color: rgba(115, 114, 114, 0.7);
       }
@@ -1071,7 +1071,7 @@ body {
       .img-text {
         position: absolute;
         bottom: 5%;
-        width: 30%;
+        width: 33%;
         height: 10%;
       background-color: rgba(115, 114, 114, 0.7);
       }
@@ -1108,7 +1108,7 @@ body {
       .img-text {
         position: absolute;
         bottom: 5%;
-        width: 60%;
+        width: 73%;
         height: 10%;
       background-color: rgba(115, 114, 114, 0.7);
       }
@@ -1132,7 +1132,7 @@ body {
       .img-text {
         position: absolute;
         bottom: 5%;
-        width: 60%;
+        width: 90%;
         height: 7%;
       background-color: rgba(115, 114, 114, 0.7);
       }
