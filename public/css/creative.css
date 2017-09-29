@@ -881,7 +881,7 @@ body {
         bottom: 5%;
         width: 90%;
         height: 10%;
-      background-color: rgba(115, 114, 114, 0.7);
+      background-color: rgba(11 5, 114, 114, 0.7);
       }*/
 
     .description1 {
@@ -889,11 +889,11 @@ body {
     }
 
     #portfolio h3 {
-      font-size: 1em;
+      font-size: 0.750em;
     }
 
-    .mask p {
-      font-size: 1em;
+    #portfolio p {
+      font-size:  0.625em;
     }
 
     .container {
@@ -1010,12 +1010,13 @@ body {
     }
 
     #portfolio h3 {
-      font-size: 1em;
+      font-size: 0.750em;
     }
 
-    .mask p {
-      font-size: 0.875em;
+    #portfolio p {
+      font-size:  0.625em;
     }
+
 
     .navbar-header {
       background-color: #c99b95;
@@ -1063,10 +1064,6 @@ body {
       padding: 0 0;
     }
 
-    .mask p {
-      font-size: 0.875em;
-    }
-
 
     .description1 {
       margin-top: 120px;
@@ -1082,6 +1079,10 @@ body {
 
     #portfolio h3 {
       font-size: 1em;
+    }
+
+    #portfolio p {
+      font-size: 0.875em;
     }
 
     .view-first .mask {
@@ -1112,11 +1113,11 @@ body {
     }
 
     #portfolio h3 {
-      font-size: 1em;
+      font-size: 1.5em;
     }
 
-    .mask p {
-      font-size: 0.875em;
+    #portfolio p {
+      font-size: 1.25em;
     }
 
 }
@@ -1140,6 +1141,14 @@ body {
 
     .project {
       margin-top: 10px;
+    }
+
+    #portfolio h3 {
+      font-size: 1.5em;
+    }
+
+    #portfolio p {
+      font-size: 1.25em;
     }
 
 }
@@ -1179,7 +1188,7 @@ body {
       font-size: 1.5em;
     }
 
-    .mask p {
+    #portfolio p {
       font-size: 1.25em;
       margin-bottom: 10px;
     }
