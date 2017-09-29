@@ -1063,14 +1063,10 @@ body {
       padding: 0 0;
     }
 
+    #portfolio p {
+      font-size: 0.875em;
+    }
 
-      /*.img-text {
-        position: absolute;
-        bottom: 5%;
-        width: 85%;
-        height: 11%;
-      background-color: rgba(115, 114, 114, 0.7);
-      }*/
 
     .description1 {
       margin-top: 120px;
@@ -1103,14 +1099,6 @@ body {
 
       }
 
-     /* .img-text {
-        position: absolute;
-        bottom: 5%;
-        width: 45%;
-        height: 10%;
-      background-color: rgba(115, 114, 114, 0.7);
-      }*/
-
     .description1 {
       margin-top: 200px;
     }
@@ -1126,6 +1114,11 @@ body {
     #portfolio h3 {
       font-size: 1em;
     }
+
+    #portfolio p {
+      font-size: 0.875em;
+    }
+
 }
 
 @media only screen and (min-device-width : 769px) and (max-device-width : 1024px) {
@@ -1137,23 +1130,10 @@ body {
 
       }
 
-      /*.img-text {
-        position: absolute;
-        bottom: 5%;
-        width: 33%;
-        height: 10%;
-      background-color: rgba(115, 114, 114, 0.7);
-      }*/
-
     .description1 {
       margin-top: 200px;
     }
-
-    /*#about img {
-      width: 60%;
-    }*/
-
-    
+ 
     .carpenter {
       width: 50%;
     }
@@ -1174,18 +1154,6 @@ body {
 
       }
 
-      /*.img-text {
-        position: absolute;
-        bottom: 5%;
-        width: 73%;
-        height: 10%;
-      background-color: rgba(115, 114, 114, 0.7);
-      }*/
-/*
-      .carpenter {
-      width: 40%;
-      }*/
-
  
  }
 
@@ -1197,14 +1165,6 @@ body {
         height: 550px;
 
       }
-
-      /*.img-text {
-        position: absolute;
-        bottom: 5%;
-        width: 90%;
-        height: 7%;
-      background-color: rgba(115, 114, 114, 0.7);
-      }*/
 
       .carpenter {
       width: 30%;
