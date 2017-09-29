@@ -50,7 +50,7 @@ p {
   background-color: #D7D7C2;
 }
 .bg-dark {
-  background-color: #222222;
+  background-color: #1e1c17;
   color: white;
 }
 .text-faded {
@@ -489,13 +489,14 @@ h4 {
 }
 .view h3 {
     /*text-transform: uppercase;*/
-    color: #fff;
+    color: #b6bdc6;
+    border-bottom: 1px solid #b6bdc6;
     text-align: center;
     position: relative;
     font-size: 17px;
-    padding: 10px;
-    background-color: #3f2a0e;
-    width: 80%;
+    padding: 5px;
+    /*background-color: #3f2a0e;*/
+    width: 50%;
     margin: 0 auto;
 }
 .view p {
@@ -504,6 +505,7 @@ h4 {
     font-size: 12px;
     position: relative;
     color: #fff;
+    padding-right: 5px;
     /*padding: 10px 20px 20px;*/
     text-align: center;
     text-decoration: none;
@@ -569,9 +571,6 @@ h4 {
 .view-first:hover p {
     transition-delay: 0.1s;
 }
-/*.view-first:hover a.info {
-    transition-delay: 0.2s;
-}*/
 
 .portfolio-box:hover {
   text-decoration: none;
@@ -626,22 +625,53 @@ h4 {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   font-size: 18px;
 }
-/*.portfolio-box:hover .portfolio-box-caption {
-  opacity: 1;
-}*/
+
 .portfolio-box:focus {
   outline: none;
 }
 
 
-/*@media (min-width: 768px) {
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
-    font-size: 16px;
-  }
-  .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-    font-size: 22px;
-  }
-}*/
+/*blog*/
+
+#blog {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+#blog h2 {
+  width: 10%;
+  margin: -30px auto 0 auto;
+  padding-bottom: 5px;
+  color: #c7c7c7;
+}
+
+#blog hr {
+  border-color: #c7c7c7;
+  width: 60%;
+}
+
+.blog-title {
+  font-size: 20px;
+  margin-top: 10px;
+
+}
+
+#blog p {
+  color: #c7c7c7;
+  font-size: 18px;
+  width: 50%;
+  margin: 0 auto 20px auto;
+  color: #ffffff;
+}
+
+#blog a {
+  color: #b46ca4;
+}
+
+#blog a:hover {
+  color: #384893;
+}
+
 .call-to-action h2 {
   margin: 0 auto 20px;
 }
@@ -747,7 +777,7 @@ fieldset[disabled] .btn-primary.active {
 
 #contact {
   background-color: #D7D7C2;
-  margin-top: 30px; 
+  /*margin-top: 30px; */
 }
 
 #contact hr {
