@@ -633,13 +633,19 @@ h4 {
 
 /*blog*/
 
+#blog .container {
+  width: 80%;
+}
+
 #blog {
   margin-top: 20px;
   margin-bottom: 0px;
 }
 
+
+
 #blog h2 {
-  width: 10%;
+  width: 100%;
   margin: -30px auto 0 auto;
   padding-bottom: 5px;
   color: #c7c7c7;
@@ -647,7 +653,7 @@ h4 {
 
 #blog hr {
   border-color: #c7c7c7;
-  width: 60%;
+  width: 100%;
 }
 
 .blog-title {
@@ -657,11 +663,10 @@ h4 {
 }
 
 #blog p {
-  color: #c7c7c7;
   font-size: 18px;
-  width: 50%;
-  margin: 0 auto 20px auto;
-  color: #ffffff;
+  /*width: 50%;*/
+ /* margin: 0 auto 20px auto;*/
+  color: #c0b9b9;
 }
 
 #blog a {
@@ -892,7 +897,7 @@ body {
       font-size: 0.750em;
     }
 
-    #portfolio p {
+    #portfolio p, #blog a {
       font-size:  0.625em;
     }
 
@@ -1013,7 +1018,7 @@ body {
       font-size: 1em;
     }
 
-    #portfolio p {
+    #portfolio p, #blog a {
       font-size:  0.750em;
     }
 
@@ -1081,7 +1086,7 @@ body {
       font-size: 1em;
     }
 
-    #portfolio p {
+    #portfolio p, #blog a {
       font-size: 0.875em;
     }
 
@@ -1147,7 +1152,7 @@ body {
       font-size: 1.5em;
     }
 
-    #portfolio p {
+    #portfolio p, #blog a {
       font-size: 1.25em;
     }
 
@@ -1188,7 +1193,7 @@ body {
       font-size: 1.5em;
     }
 
-    #portfolio p {
+    #portfolio p, #blog a {
       font-size: 1.25em;
       margin-bottom: 10px;
     }
