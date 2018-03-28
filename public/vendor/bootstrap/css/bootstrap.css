@@ -28,11 +28,13 @@ summary {
   display: block;
 }
 audio,
-canvas,
 progress,
 video {
   display: inline-block;
   vertical-align: baseline;
+}
+canvas {
+  display: none;
 }
 audio:not([controls]) {
   display: none;

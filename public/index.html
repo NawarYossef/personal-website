@@ -1,37 +1,42 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
 
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Nawar Yossef</title>
+  <title>Nawar Yossef</title>
 
-    <!-- Bootstrap Core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-
-
-    <!-- Custom Fonts -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
-
-    <!-- Theme CSS -->
-    <link href="css/creative.css" rel="stylesheet">
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
 
 
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+  <!-- Custom Fonts -->
+  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800'
+    rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic'
+    rel='stylesheet' type='text/css'>
+
+  <!-- Plugin CSS -->
+  <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+  <!-- Theme CSS -->
+  <link href="css/creative.css" rel="stylesheet">
+  <!-- <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> -->
+  <!-- stats.js lib -->
+  <script src="http://threejs.org/examples/js/libs/stats.min.js"></script>
+
+
+
+  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
@@ -40,366 +45,383 @@
 
 <body id="page-top">
 
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
-                </button>
-                <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
-            </div>
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span> Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <!-- <a class="navbar-brand page-scroll" href="#page-top">Start Bootstrap</a> -->
+      </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-left">
-                    <li>
-                        <a class="page-scroll" href="#about">About</a>
-                    </li>
-                    <!-- <li>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-left">
+          <li>
+            <a class="page-scroll" href="#about">About</a>
+          </li>
+          <!-- <li>
                         <a class="page-scroll" href="#contact">
                         Clients</a>
                     </li> -->
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Portfolio</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#blog">
-                        Blog</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
+          <li>
+            <a class="page-scroll" href="#portfolio">Portfolio</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#blog">
+              Blog</a>
+          </li>
+          <li>
+            <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+  <header>
+    <div id="particles-js">
+      <div class="header-content">
+        <div class="header-content-inner">
+          <img class="personal-photo" src="img/personal-photo.jpg">
+
+
+          <p>Hi! I’m
+            <span>Nawar Yossef</span> I'm a fullstack Javascript developer from Atlanta, Georgia. I use web technologies to make
+            awesome applications. At the moment, I enjoy working with Node.js and React</p>
+
+          <a href="#contact" class="btn btn-primary btn-xl page-scroll my-work-link">View My Work</a>
         </div>
-        <!-- /.container-fluid -->
-    </nav>
-
-    <header>
-        <div class="header-content">
-            <div class="header-content-inner">
-                <img class="personal-photo" src="img/personal-photo.jpg">
-                <h1 id="homeHeading">Nawar Yossef</h1>
-                <div class="text-center header-icons">
-                    <a href="https://github.com/NawarYossef" target="_blank">
-                        <span class="fa fa-github-square fa-2x connectLinks" style=""></span> 
-
-                    </a>
-                    <a href="https://www.linkedin.com/in/nawar-yossef-78924211a/" target="_blank">
-                        <span class="fa fa-linkedin-square fa-2x connectLinks" style=""></span>
-                    </a>
-                    <a href="https://www.facebook.com/nawar.yossef" target="_blank">
-                        <span class="fa fa-facebook-square fa-2x connectLinks" style=""></span>
-                    </a>
-                </div>
-    
-                <p>Hi! I’m a front end Javascript developer from Atlanta, Georgia. I use web technologies to make awesome applications. At the moment, I enjoy working with Node.js and React</p>
-
-                <a href="#contact" class="btn btn-primary btn-xl page-scroll">Contact Me</a>
+      </div>
+    </div>
+  </header>
+  <script>
+        /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+  </script>
+  </div>
+  <section class="bg-primary" id="about">
+    <h2 class="section-heading">About</h2>
+    <div class="container">
+      <div class="no-gutters col-lg-4">
+        <div id="slideshow">
+          <div class=" img-container">
+            <img src="img/about-photo1.jpg">
+            <div class="img-text">
+              <!-- <h4>I Enjoy Nature</h4> -->
             </div>
+          </div>
+          <div class=" img-container">
+            <img src="img/about-photo3.jpg">
+            <div class="img-text">
+              <!-- <h4><i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i> </h4> -->
+            </div>
+          </div>
+          <div class=" img-container">
+            <img src="img/about-photo2.jpg">
+            <div class="img-text">
+
+            </div>
+          </div>
+          <div class=" img-container">
+            <img src="img/about-photo4.jpg">
+            <div class="img-text">
+
+            </div>
+          </div>
         </div>
-    </header>
 
-    
-    <section class="bg-primary" id="about">
-        <h2 class="section-heading">About</h2>
-        <div class="container"> 
-            <div class="no-gutters col-lg-4" >
-                <div id="slideshow">
-                   <div class=" img-container">
-                     <img src="img/about-photo1.jpg">
-                     <div class="img-text">
-                         <!-- <h4>I Enjoy Nature</h4> -->
-                     </div>
-                   </div>
-                   <div class=" img-container">
-                     <img src="img/about-photo3.jpg">   
-                     <div class="img-text">
-                         <!-- <h4><i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i> <i class="fa fa-heart-o" aria-hidden="true"></i> </h4> -->
-                     </div>
-                   </div>
-                   <div class=" img-container">
-                     <img src="img/about-photo2.jpg">
-                     <div class="img-text">
-                      
-                     </div>
-                   </div>
-                   <div class=" img-container">
-                     <img src="img/about-photo4.jpg">
-                     <div class="img-text">
+      </div>
 
-                     </div>
-                   </div>
-                </div>
+      <div class=" gutter col-lg-8 description1">
+        <h3 class="section-heading">Who am I</h3>
+        <p>
+          I am sure you just want to check my work out, so I'll be quick. I’m a concert pianist turned web developer. I began learning
+          web development one year ago. I started off with learning the basics of HTML/CSS, JavaScript, Ruby, C++ then I
+          decided to focus on learning Javascript and front end frameworks.
+          <br>
+          <br> I have always had a passion for classical music and a love of technology. At a young age, I chose to focus on
+          establishing a career as pianist and film music composer. At the same time I continued to satisfy my tech interests.
+          I believe that programming is an art form and that there is a great parallel between music composition and web
+          development. That is the ability to create and shape something out of nothing.
+          <br>
+          <br> Outside of my digital life I have a number of other interests as well. I love watching and playing tennis, hiking
+          and enjoying nature, and spending time with my beautiful wife and good friends.
+        </p>
+        <br>
+        <br>
+      </div>
 
-            </div>
+      <div class=" gutter col-lg-8 description2">
+        <h3 class="section-heading">What I do</h3>
+        <p>
+          I’m a passionate javascript programmer who specializes in front-end development. I have a powerful team spirit, a creative
+          mind and a great work ethic. I believe in pretty designs and clean coding, and take pride in writing the kind of
+          code that others can read and collaborate on.
+          <br>
+          <br> I enjoy working with Photoshop and convert designs to high-performance code whilst respecting the designer’s compositions.
+          I Use modern techniques to build web applications and websites that look great on the browser or on the phone.
+          The mobile compatibility is one of my main concerns so I’m always focused on making my applications work nice and
+          smoothly on mobile devices.
+          <br>
+          <br> I’m constantly learning new technologies and thriving to improve my skills. I spend most of time reading books,
+          attending workshops, and blogging about my experience.
+        </p>
+        <p>Check out my blog
+          <a href="https://medium.com/@nawarpianist" target="_blank">here</a>
+        </p>
+      </div>
+      <div class="gutter col-lg-4 carpenter">
+        <img src="img/cc.png">
+      </div>
 
-            <div class=" gutter col-lg-8 description1">                   
-               <h3 class="section-heading">Who am I</h3>
-               <p>
-                I am sure you just want to check my work out, so I'll be quick. 
-                I’m a concert pianist turned web developer. I began learning web development one year ago. I started off with learning the basics of HTML/CSS, JavaScript, Ruby, C++ then I decided to focus on learning Javascript and front end frameworks. 
-                <br>
-                <br>
-                I have always had a passion for classical music and a love of technology. At a young age, I chose to focus on establishing a career as pianist and film music composer. At the same time I continued to satisfy my tech interests. I believe that programming is an art form and that there is a great parallel between music composition and web development. That is the ability to create and shape something out of nothing.  
-                <br>
-                <br>
-                Outside of my digital life I have a number of other interests as well. I love watching and playing tennis, hiking and enjoying nature, and spending time with my beautiful wife and good friends.
-                </p> 
-                <br>
-                <br>
-            </div>
-            
-            <div class=" gutter col-lg-8 description2">
-                <h3 class="section-heading">What I do</h3> 
-                <p>
-                I’m a passionate javascript programmer who specializes in front-end development. I have a powerful team spirit, a creative mind and a great work ethic.  I believe in pretty designs and clean coding, and take pride in writing the kind of code that others can read and collaborate on. 
-                <br>
-                <br>
-                I enjoy working with Photoshop and convert designs to high-performance code whilst respecting the designer’s compositions. I Use modern techniques to build web applications and websites that look great on the browser or on the phone. The mobile compatibility is one of my main concerns so I’m always focused on making my applications work nice and smoothly on mobile devices. 
-                <br>
-                <br>
-                I’m constantly learning new technologies and thriving to improve my skills. I spend most of time reading books, attending workshops, and blogging about my experience. 
-                </p>
-                <p>Check out my blog <a href="https://medium.com/@nawarpianist" target="_blank">here</a></p>
-            </div>
-            <div class="gutter col-lg-4 carpenter" >
-                <img src="img/cc.png">
-            </div>
-            
-           <div class="dev-tools col-lg-12">
-                <h3 class="dev-tools-heading">Some of the skills I'm proficient with:</h3> 
-                <table class="table">
-                  <thead>
-                     <tr>
-                      <th>Languages</th>
-                      <th>Libraries</th>
-                      <th>Tools</th>
-                    </tr> 
-                
-                  </thead>
+      <div class="dev-tools col-lg-12">
+        <h3 class="dev-tools-heading">Some of the skills I'm proficient with:</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Languages</th>
+              <th>Libraries</th>
+              <th>Tools</th>
+            </tr>
 
-                  <tbody>
-                    <tr>
-                      <td>HTML</td>
-                      <td>React</td>
-                      <td>Git</td>
-                    </tr>
-                    <tr>
-                      <td>CSS</td>
-                      <td>Redux</td>
-                      <td>RESTful APIs</td>
-                    </tr>
-                    <tr>
-                      <td>JavaScript</td>
-                      <td>JQuery</td>
-                      <td>Chrome Dev Tools</td>
-                    </tr>
-                    <tr>
-                      <td>MongoDB</td>
-                      <td>Bootstrap</td>
-                      <td>FireFox Dev Tools</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Node.js</td>
-                        <td>npm/Yarn</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Sass/SCSS</td>
-                        <td>Browserify</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td></td>
-                        <td>Babel</td>
-                    </tr>
-                  </tbody>
-                </table>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td>HTML</td>
+              <td>React</td>
+              <td>Git</td>
+            </tr>
+            <tr>
+              <td>CSS</td>
+              <td>Redux</td>
+              <td>RESTful APIs</td>
+            </tr>
+            <tr>
+              <td>JavaScript</td>
+              <td>JQuery</td>
+              <td>Chrome Dev Tools</td>
+            </tr>
+            <tr>
+              <td>MongoDB</td>
+              <td>Bootstrap</td>
+              <td>FireFox Dev Tools</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Node.js</td>
+              <td>npm/Yarn</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>Sass/SCSS</td>
+              <td>Browserify</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td>Babel</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="no-padding" id="portfolio">
+    <h2 class="section-heading">Portfolio</h2>
+    <div class="container-fluid">
+      <div class="">
+
+        <div class="col-lg-4 col-sm-6 project">
+          <div class="view view-first">
+            <img src="img/portfolio/thumbnails/calculator.jpg" class="img-responsive" alt="">
+            <div class="mask">
+              <h3>Calculator</h3>
+              <p>
+                A calculator that support all the basic functions (+, -, * and /) and provides good user experience.
+                <br>
+              </p>
+              <a href="https://github.com/NawarYossef/calculator-app" class="info">source code</a>
+              <a href="https://calculator-online.herokuapp.com/#" class="portfolio-box info" target="_blank">Live demo</a>
             </div>
+          </div>
         </div>
-    </section>
-        
 
-    
-
-    <section class="no-padding" id="portfolio">
-        <h2 class="section-heading">Portfolio</h2>
-            <div class="container-fluid">
-                <div class="">
-                    
-                    <div class="col-lg-4 col-sm-6 project">
-                            <div class="view view-first"> 
-                                <img src="img/portfolio/thumbnails/calculator.jpg" class="img-responsive" alt="">
-                                <div class="mask">  
-                                    <h3>Calculator</h3>  
-                                    <p>
-                                    A calculator that support all the basic functions (+, -, * and /) and provides good user experience. <br>
-                                    </p>  
-                                    <a href="https://github.com/NawarYossef/calculator-app" class="info">source code</a> 
-                                    <a href="https://calculator-online.herokuapp.com/#" class="portfolio-box info" target="_blank">Live demo</a>
-                                </div> 
-                            </div> 
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 project">
-                            <div class="view view-first">
-                                <img src="img/portfolio/thumbnails/clock.jpg" class="img-responsive" alt="">
-                                <div class="mask">
-                                    <h3>Time & Events</h3>
-                                    <p>
-                                    An application build with API toshows time, date and historical events for each day.<br>
-                                    </p>
-                                    <a href="https://github.com/NawarYossef/clock-historical-events" class="info" target="_blank">source code</a> 
-                                    <a href="https://clock-historical-events.herokuapp.com/" class="info" target="_blank">Live demo</a>
-                                </div> 
-                            </div> 
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 project">
-                            <div class="view view-first">
-                                <img src="img/portfolio/thumbnails/ttt.jpg" class="img-responsive" alt="">
-                                <div class="mask">
-                                    <h3>Tic-Tac-Toe</h3>
-                                    <p>
-                                    A Tic-Tac-Toe game with unbeatable AI<br>
-                                    </p>
-                                    <a href="https://github.com/NawarYossef/tic-tac-toe-application" class="info" target="_blank">source code</a>
-                                    <a href="https://tic-tac-toe-application.herokuapp.com/" class="info" target="_blank">Live demo</a>
-                                </div> 
-                            </div> 
-                        <!-- </a>   -->
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 project morse">
-                                <div class="view view-first">
-                                    <img src="img/portfolio/thumbnails/morse.png" class="img-responsive" alt="">
-                                    <div class="mask">
-                                        <h3>Morsiphy</h3>
-                                        <p>
-                                        A translator that convert words and letters to morse code<br>
-                                        </p>
-                                        <a href="https://github.com/NawarYossef/morsiphy" class="info" target="_blank">source code</a>
-                                    </div> 
-                                </div> 
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-sm-6 project website">
-                                <div class="view view-first">
-                                    <img src="img/portfolio/thumbnails/website.png" class="img-responsive" alt="">
-                                    <div class="mask">
-                                        <h3>My Website</h3>
-                                        <p>
-                                        This is my personal website. I build it using HTML/CSS, Bootstrap and Javascript<br>
-                                        </p>
-                                        <a href="https://github.com/NawarYossef/personal-website" class="info" target="_blank">source code</a>
-                                    </div> 
-                                </div> 
-                        </div>
-                    </div>
-                </div>
+        <div class="col-lg-4 col-sm-6 project">
+          <div class="view view-first">
+            <img src="img/portfolio/thumbnails/clock.jpg" class="img-responsive" alt="">
+            <div class="mask">
+              <h3>Time & Events</h3>
+              <p>
+                An application build with API toshows time, date and historical events for each day.
+                <br>
+              </p>
+              <a href="https://github.com/NawarYossef/clock-historical-events" class="info" target="_blank">source code</a>
+              <a href="https://clock-historical-events.herokuapp.com/" class="info" target="_blank">Live demo</a>
             </div>
-    </section>
+          </div>
+        </div>
 
-  
-    <aside class="bg-dark" id="blog">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 col-lg-offset-2">
-            <h2 class="section-heading text-center">My blog</h2>
-            <hr class="primary">
-            <p class="text-left">     
-              Blogging helps me become a better communicator and thinker. I like to document my learning journey and solidify my understand of new concepts. Here are some of my blog posts:
-            </p>
+        <div class="col-lg-4 col-sm-6 project">
+          <div class="view view-first">
+            <img src="img/portfolio/thumbnails/ttt.jpg" class="img-responsive" alt="">
+            <div class="mask">
+              <h3>Tic-Tac-Toe</h3>
+              <p>
+                A Tic-Tac-Toe game with unbeatable AI
+                <br>
+              </p>
+              <a href="https://github.com/NawarYossef/tic-tac-toe-application" class="info" target="_blank">source code</a>
+              <a href="https://tic-tac-toe-application.herokuapp.com/" class="info" target="_blank">Live demo</a>
+            </div>
+          </div>
+          <!-- </a>   -->
+        </div>
+
+        <div class="col-lg-4 col-sm-6 project morse">
+          <div class="view view-first">
+            <img src="img/portfolio/thumbnails/morse.png" class="img-responsive" alt="">
+            <div class="mask">
+              <h3>Morsiphy</h3>
+              <p>
+                A translator that convert words and letters to morse code
+                <br>
+              </p>
+              <a href="https://github.com/NawarYossef/morsiphy" class="info" target="_blank">source code</a>
+            </div>
           </div>
         </div>
       </div>
-        <div class="container-fluid">
-           <div class="col-lg-4 col-sm-6 text-center blog-title"> 
-            <a href="https://medium.com/@nawarpianist/git-commit-best-practices-dab8d722de99" target="_blank">Git commit best practices</a>
-           </div> 
-           <div class="col-lg-4 col-sm-6 text-center blog-title"> 
-            <a href="https://medium.com/@nawarpianist/calculator-in-javascript-b1aca15a09c" target="_blank">JavaScript Calculator</a>
-           </div>  
-           <div class="col-lg-4 col-sm-6 text-center blog-title">
-            <a href="https://medium.com/@nawarpianist/javascript-scope-this-4c1cd87a69c1" target="_blank">JavaScript — Scope && .this</a> 
-           </div> 
-            <div class="col-lg-6 col-sm-6 text-center blog-title"> 
-              <a href="https://medium.com/@nawarpianist/building-my-enumerable-methods-9abddbb230a4" target="_blank">Building Enumerable methods in Ruby</a>
-           </div> 
-           <div class="col-lg-6 col-sm-6 text-center blog-title"> 
-            <a href="https://medium.com/@nawarpianist/javascript-programming-foundations-part-1-bef0db4962e7" target="_blank">JavaScript — Programming Foundations</a>
-              
-           </div>     
-        </div>
-    </aside>
 
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="section-heading text-center">Let's Get In Touch!</h2>
-                    <hr class="primary">
-                    <p class="text left"> I'm open to relocating or potentially working remotely. If you'd like to go over a potential opportunity or remote position, feel free to reach out via email:</p>
-                    <p>Email:<span class="email">nawaryossef2@gmail.com</span></p>
-                    <!-- <div class="col-lg-4     text-center">
+      <div class="col-lg-4 col-sm-6 project website">
+        <div class="view view-first">
+          <img src="img/portfolio/thumbnails/website.png" class="img-responsive" alt="">
+          <div class="mask">
+            <h3>My Website</h3>
+            <p>
+              This is my personal website. I build it using HTML/CSS, Bootstrap and Javascript
+              <br>
+            </p>
+            <a href="https://github.com/NawarYossef/personal-website" class="info" target="_blank">source code</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    </div>
+  </section>
+
+
+  <aside class="bg-dark" id="blog">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <h2 class="section-heading text-center">My blog</h2>
+          <hr class="primary">
+          <p class="text-left">
+            Blogging helps me become a better communicator and thinker. I like to document my learning journey and solidify my understand
+            of new concepts. Here are some of my blog posts:
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="col-lg-4 col-sm-6 text-center blog-title">
+        <a href="https://medium.com/@nawarpianist/git-commit-best-practices-dab8d722de99" target="_blank">Git commit best practices</a>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center blog-title">
+        <a href="https://medium.com/@nawarpianist/calculator-in-javascript-b1aca15a09c" target="_blank">JavaScript Calculator</a>
+      </div>
+      <div class="col-lg-4 col-sm-6 text-center blog-title">
+        <a href="https://medium.com/@nawarpianist/javascript-scope-this-4c1cd87a69c1" target="_blank">JavaScript — Scope && .this</a>
+      </div>
+      <div class="col-lg-6 col-sm-6 text-center blog-title">
+        <a href="https://medium.com/@nawarpianist/building-my-enumerable-methods-9abddbb230a4" target="_blank">Building Enumerable methods in Ruby</a>
+      </div>
+      <div class="col-lg-6 col-sm-6 text-center blog-title">
+        <a href="https://medium.com/@nawarpianist/javascript-programming-foundations-part-1-bef0db4962e7" target="_blank">JavaScript — Programming Foundations</a>
+
+      </div>
+    </div>
+  </aside>
+
+  <section id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 contacts-wrapper">
+          <h2 class="section-heading text-center projects">Let's Get In Touch!</h2>
+          <hr class="primary">
+          <p class="text left"> I'm open to relocating or potentially working remotely. If you'd like to go over a potential opportunity or remote
+            position, feel free to reach out via email:</p>
+          <p>Email:
+            <span class="email">nawaryossef2@gmail.com</span>
+          </p>
+          <!-- <div class="col-lg-4     text-center">
                         <i class="fa fa-envelope-o fa-3x sr-contact"></i>
                         <p><a href="mailto:your-email@your-domain.com">feedback@startbootstrap.com</a></p>
 
                     </div> -->
-                    <p>I can also be reached at one of the social media links below:</p>
-                    <div class="text-center">
-                        <i class="glyphicon glyphicon-chevron-down"></i>
-                    </div>
-                    <div class="text-center">
-                        <a href="https://github.com/NawarYossef" target="_blank">
-                            <span class="fa fa-github-square fa-2x connectLinks cont-link" style=""></span>  
-                        </a>
-                        <a href="https://www.linkedin.com/in/nawar-yossef-78924211a/" target="_blank">
-                            <span class="fa fa-linkedin-square fa-2x connectLinks cont-link" style=""></span>
-                        </a>
-                        <a href="https://www.facebook.com/nawar.yossef" target="_blank">
-                            <span class="fa fa-facebook-square fa-2x connectLinks cont-link" style=""></span>
-                        </a>
-                    </div>
-                </div>
-                <!-- <div class="col-lg-4 col-lg-offset-2 text-center">
+          <p>I can also be reached at one of the social media links below:</p>
+          <div class="text-center">
+            <i class="glyphicon glyphicon-chevron-down"></i>
+          </div>
+          <div class="text-center">
+            <a href="https://github.com/NawarYossef" target="_blank">
+              <span class="fa fa-github-square fa-2x connectLinks cont-link" style=""></span>
+            </a>
+            <a href="https://www.linkedin.com/in/nawar-yossef-78924211a/" target="_blank">
+              <span class="fa fa-linkedin-square fa-2x connectLinks cont-link" style=""></span>
+            </a>
+            <a href="https://www.facebook.com/nawar.yossef" target="_blank">
+              <span class="fa fa-facebook-square fa-2x connectLinks cont-link" style=""></span>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="col-lg-4 col-lg-offset-2 text-center">
                     <i class="fa fa-phone fa-3x sr-contact"></i>
                     <p>123-456-6789</p>
                 </div> -->
-            </div>
-        </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- jQuery -->
-    <script src="vendor/jquery/jquery.min.js"></script>
+  <!-- jQuery -->
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
 
-    <!-- Bootstrap Core JavaScript -->
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <!-- Bootstrap Core JavaScript -->
+  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Plugin JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <!-- Plugin JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+  <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+  <script src="js/creative.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/particlesjs/2.2.1/particles.js"></script>
 
-    <!-- Theme JavaScript -->
-    <script src="js/creative.min.js"></script>
-    <script type="text/javascript">
-        $("#slideshow > div:gt(0)").hide();
 
-        setInterval(function() { 
-          $('#slideshow > div:first')
-            .fadeOut(1000)
-            .next()
-            .fadeIn(1000)
-            .end()
-            .appendTo('#slideshow');
-        },  3000);
-    </script>
+  <!-- Theme JavaScript -->
+  <script src="js/creative.js"></script>
+  <script type="text/javascript">
+    $("#slideshow > div:gt(0)").hide();
+
+    setInterval(function () {
+      $('#slideshow > div:first')
+        .fadeOut(1000)
+        .next()
+        .fadeIn(1000)
+        .end()
+        .appendTo('#slideshow');
+    }, 3000);
+  </script>
 
 </body>
 
